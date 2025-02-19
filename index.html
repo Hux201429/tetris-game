@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>俄罗斯方块</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: white;
+        }
+        canvas {
+            background-color: black;
+            display: block;
+            margin: 20px auto;
+        }
+        .controls {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>俄罗斯方块</h1>
+    <canvas id="tetris" width="300" height="600"></canvas>
+    <div class="controls">
+        <p>使用箭头键移动和旋转方块</p>
+        <button onclick="startGame()">开始游戏</button>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
